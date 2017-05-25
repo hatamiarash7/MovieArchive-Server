@@ -53,7 +53,8 @@ class MovieController extends Controller
      */
     public function show($id)
     {
-        //
+      $data = $this->movies->getMovie($id);
+      return response()->json($data);
     }
 
     /**

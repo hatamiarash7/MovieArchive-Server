@@ -176,7 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        // mines
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         App\Providers\v1\MovieServiceProvider::class,
 
     ],
